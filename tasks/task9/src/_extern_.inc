@@ -1,0 +1,27 @@
+; _extern_.inc
+extrn WSAStartup            :proc
+extrn WSACleanup            :proc
+extrn WSAGetLastError       :proc
+extrn socket                :proc
+extrn bind                  :proc
+extrn listen                :proc
+extrn accept                :proc
+extrn connect               :proc
+extrn recv                  :proc
+extrn send                  :proc
+extrn closesocket           :proc
+extrn printf                :proc
+extrn ExitProcess           :proc
+extrn GetStdHandle          :proc
+extrn ReadConsoleA          :proc
+extrn FormatMessageA        :proc
+extrn LocalFree             :proc
+extrn htons                 :proc
+extrn inet_addr             :proc
+extrn CreateThread          :proc
+extrn CreateEventA          :proc
+extrn SetEvent              :proc
+extrn WaitForSingleObject   :proc
+extrn Sleep                 :proc
+extrn CommandLineToArgvW    :proc
+extrn GetCommandLineW       :proc
